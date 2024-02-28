@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.huanzhanapicenter.mapper.UserWithInterfaceMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.huanzhanapicenter.domain.UserWithInterface">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="username" column="UserName" jdbcType="VARCHAR"/>
+            <result property="userstatus" column="UserStatus" jdbcType="INTEGER"/>
+            <result property="interfacename" column="InterfaceName" jdbcType="VARCHAR"/>
+            <result property="interfacestatus" column="InterfaceStatus" jdbcType="INTEGER"/>
+            <result property="invokednumber" column="InvokedNumber" jdbcType="BIGINT"/>
+            <result property="leftnumber" column="LeftNumber" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,UserName,UserStatus,
+        InterfaceName,InterfaceStatus,InvokedNumber,
+        LeftNumber
+    </sql>
+</mapper>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/API平台.iml" filepath="$PROJECT_DIR$/.idea/API平台.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Huanzhan-api-center/Huanzhan-api-center.iml" filepath="$PROJECT_DIR$/Huanzhan-api-center/Huanzhan-api-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huanzhan-api-client/huanzhan-api-client.iml" filepath="$PROJECT_DIR$/huanzhan-api-client/huanzhan-api-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huanzhan-api-interface/huanzhan-api-interface.iml" filepath="$PROJECT_DIR$/huanzhan-api-interface/huanzhan-api-interface.iml" />
+    </modules>
+  </component>
+</project>

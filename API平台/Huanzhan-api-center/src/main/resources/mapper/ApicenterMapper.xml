@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.huanzhanapicenter.mapper.ApicenterMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.huanzhanapicenter.domain.Apicenter">
+            <id property="id" column="ID" jdbcType="BIGINT"/>
+            <result property="username" column="UserName" jdbcType="VARCHAR"/>
+            <result property="userpassword" column="UserPassword" jdbcType="VARCHAR"/>
+            <result property="accesskey" column="AccessKey" jdbcType="VARCHAR"/>
+            <result property="secretkey" column="SecretKey" jdbcType="VARCHAR"/>
+            <result property="avatarurl" column="AvatarUrl" jdbcType="VARCHAR"/>
+            <result property="phone" column="Phone" jdbcType="VARCHAR"/>
+            <result property="lastdate" column="LastDate" jdbcType="BIGINT"/>
+            <result property="nonenumber" column="NoneNumber" jdbcType="INTEGER"/>
+            <result property="isdelete" column="IsDelete" jdbcType="INTEGER"/>
+            <result property="gender" column="gender" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        ID,UserName,UserPassword,
+        AccessKey,SecretKey,AvatarUrl,
+        Phone,LastDate,NoneNumber,
+        IsDelete,gender
+    </sql>
+</mapper>

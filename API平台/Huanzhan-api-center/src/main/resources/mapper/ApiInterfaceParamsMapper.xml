@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.huanzhanapicenter.mapper.ApiInterfaceParamsMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.huanzhanapicenter.domain.ApiInterfaceParams">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="interfacename" column="InterfaceName" jdbcType="VARCHAR"/>
+            <result property="params" column="params" jdbcType="VARCHAR"/>
+            <result property="paramsvalue" column="paramsValue" jdbcType="VARCHAR"/>
+            <result property="ismust" column="isMust" jdbcType="INTEGER"/>
+            <result property="description" column="description" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,InterfaceName,params,
+        paramsValue,isMust,description
+    </sql>
+</mapper>

@@ -1,0 +1,21 @@
+
+~
+java:S1488%"aImmediately return this expression instead of assigning it to the temporary variable "digestHex".(ğ‰‹ß8ä¹ûİ1
+~
+java:S14882"aImmediately return this expression instead of assigning it to the temporary variable "digestHex".(Ï¡ÆÛ8ä¹ûİ1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ïÅ¼•ıÿÿÿÿ8”»ûİ1
+T
+java:S1135="2Complete the task associated to this TODO comment.(õ˜äÏüÿÿÿÿ8©»ûİ1
+@
+java:S1659n"#Declare "indey" on a separate line.(ûÄËá8½»ûİ1
+E
+java:S1481m"(Remove this unused "res" local variable.(ıœºë8½»ûİ1
+G
+java:S1481n"*Remove this unused "index" local variable.(ûÄËá8½»ûİ1
+[
+java:S1128"9Remove this unused import 'cn.hutool.core.date.DateTime'.(»õ‰úÿÿÿÿ8Á»ûİ1
+L
+java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿÛö´8Á»ûİ1
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8Á»ûİ1
